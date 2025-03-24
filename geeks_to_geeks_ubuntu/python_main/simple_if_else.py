@@ -1,4 +1,3 @@
-age = 25
+dec = 81
 
-print("You can't drive. You are much young.") if age < 18 else print("You can drive, go away!")
-
+print("It's horrible for my ears!") if dec <80 else print("It's good, let's rock!")
