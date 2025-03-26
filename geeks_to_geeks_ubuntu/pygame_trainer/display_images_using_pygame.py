@@ -1,12 +1,12 @@
 import pygame
 import sys
 
-import pygame
+pygame.init()
 
-screen = pygame.display.set_mode((600,600))
-img = pygame.image.load('SONIC.jpeg').convert()
-screen.blit(img,(0,0))
+screen = pygame.display.set_mode((700,700))
 
+image = pygame.image.load("SONIC.jpeg")
+screen.blit(image, (250,250))
 while True:
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
