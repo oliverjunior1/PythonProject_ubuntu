@@ -1,5 +1,6 @@
 try:
-    x = 10/0
+    x = 10*500/0
     print(x)
 except:
-    print("The integer number can't be divided for zero.")
+    print("You can't divide a number to zero!")
+    print("Intent again when you've learned math!")
