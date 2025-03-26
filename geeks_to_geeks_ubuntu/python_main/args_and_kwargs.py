@@ -1,4 +1,4 @@
-def args_kwargs(*args, **kwargs):
-    return print(f'Args: {args}, Kwargs: {kwargs}')
+def argsAndKwargs(*args, **kwargs):
+    print(f"The args are: {args} and the kwargs are {kwargs}.")
 
-args_kwargs(1,2, a=3, b=4)
+argsAndKwargs(1,2,3,4,5,a=6, b=7, c=8)
