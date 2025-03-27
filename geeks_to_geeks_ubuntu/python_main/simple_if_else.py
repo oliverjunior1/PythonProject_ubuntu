@@ -1,3 +1,4 @@
-age = 5
+x = 10
 
-print("You can't drive, you are too young") if age<18 else print("You can drive. GO AWAY!!!!")
+print(f"You can't use my guitar, you have only {x} years in practice!") if x <10 else print(f"You can use my guitar, you have a good experience with {x} years playing!")
+
