@@ -1,14 +1,15 @@
-class Person:
-    def __init__(self, name, lname, age):
-        self.name = name
-        self.lname = lname
-        self.age = age
+class Big_bang_theory:
+    def __init__(self, character, comic_books):
+        self.character = character
+        self.comic_books = comic_books
 
     def __str__(self):
-        return f"The name is {self.name} {self.lname} and the age is {self.age} years old."
+        return f"The character {self.character} has {self.comic_books} comic-books in his bedroom!"
 
-person1 = Person("Joao", "Pedro", 12)
-person2 = Person("Mariane", "Vitoria", 4)
+big_bang = Big_bang_theory("Sheldon", 10000)
+big_bang2 = Big_bang_theory("Leonard", 8537)
+big_bang3 = Big_bang_theory("Rajesh", 7350)
 
-print(person1)
-print(person2)
+print(big_bang)
+print(big_bang2)
+print(big_bang3)
