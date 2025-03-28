@@ -1,16 +1,15 @@
 import tkinter as tk
-from tkinter import ttk
+import tkinter as ttk
 
 root = tk.Tk()
 
-root.geometry("500x500")
-
 def change():
-    label.config(text="Jesus love we, although we don't deserve... He loves we")
+    label.config(text='Jesus is the light of the World!')
 
-label = tk.Label(root, text="Jesus is the light of the world!")
+root.geometry("500x500")
+label = tk.Label(root, text="Jesus loves you too much!")
 label.pack()
-button = tk.Button(root, text="clik here", command=change)
+button = ttk.Button(root, text="Click here", command=change)
 button.pack()
 
 root.mainloop()
