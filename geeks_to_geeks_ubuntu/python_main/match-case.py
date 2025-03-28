@@ -1,16 +1,4 @@
-# username = input('Enter username:')
-#
-# match username:
-#     case 'John':
-#         print("Welcome Admin")
-#     case 'sim':
-#         print("Welcome User")
-#     case 'spongy':
-#         print('Welcome Guest')
-#     case _:
-#         print('Invalid username')
-
-day = int(input('Enter the number of the day in week:'))
+day = int(input("Put the number to see the week day: "))
 
 match day:
     case 1:
@@ -26,4 +14,6 @@ match day:
     case 6:
         print('friday')
     case 7:
-        print('')
+        print('saturday')
+    case _:
+        print('invalid day')
