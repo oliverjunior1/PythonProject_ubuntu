@@ -1,4 +1,3 @@
-x = 10
+lock = False
 
-print(f"You can't use my guitar, you have only {x} years in practice!") if x <10 else print(f"You can use my guitar, you have a good experience with {x} years playing!")
-
+print("The home is locked, you can't enter. Is a thief? I'm Chucky Norris, go away!") if lock==True else print("You can enter in your home. Welcome!")
