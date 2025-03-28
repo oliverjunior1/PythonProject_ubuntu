@@ -6,6 +6,7 @@
 
 names = ["Joao", "Joaquim", "Alyne", "José", "Davelina", "Zélia"]
 
-names_j = [x for x in names if "J" in x]
+search_letter = input("Put a letter to search in names: ").capitalize()
+names_j = [x for x in names if f"{search_letter}" in x]
 
 print(names_j)
