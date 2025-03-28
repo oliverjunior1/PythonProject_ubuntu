@@ -1,27 +1,29 @@
-# list
-my_list = ['apple', 'melon', 'orange']
+import numpy as np
+
+my_list = [1,2,3,4,5,6,7,8]
 
 print(my_list)
 print(type(my_list))
 
-# tupple
-my_tupple = ('apple', 'melon', 'orange')
+my_tupple = (1,2,3,4,5,6,7,8)
 
 print(my_tupple)
 print(type(my_tupple))
 
-# set
-my_set = {'apple', 'melon', 'orange'}
+my_set = {1,2,3,4,5,6,7,8}
 
 print(my_set)
 print(type(my_set))
 
-# dict
-my_dict = {1:'Bible', 2:'Footbal to Idiots'}
+my_dict = {'a':1, 'b':2, 'c':3 }
 
 print(my_dict)
 print(type(my_dict))
 
+my_array = np.array([1,2,3,4,5,6])
+
+print(my_array)
+print(type(my_array))
 
 
 
