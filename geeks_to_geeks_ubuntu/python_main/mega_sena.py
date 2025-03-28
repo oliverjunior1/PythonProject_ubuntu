@@ -1,11 +1,14 @@
 import random
 
-def luck_mega():
-    x = random.sample(range(1,61), 6)
-    y = sorted(x)
-    return print(y)
+def lotofacil():
+    x = sorted(random.sample(range(1,26),15))
+    print(x)
 
-luck_mega()
-luck_mega()
-luck_mega()
-luck_mega()
+def mega():
+    x = sorted(random.sample(range(1,61),6))
+    print(x)
+
+mega()
+mega()
+lotofacil()
+lotofacil()
