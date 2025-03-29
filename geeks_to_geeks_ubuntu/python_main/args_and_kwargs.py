@@ -1,6 +1,5 @@
-def args_and_kwargs(*args, **kwargs):
-    print(f"The args are: {args}")
-    print(f"The kwargs are: {kwargs}")
+def arg_kwargs(*args, **kwargs):
+    print(f"args:{args} and kwargs: {kwargs}.")
 
-# the args types can receive only one type, but the kwargs multiples types
-args_and_kwargs(1,2,3,4, a = "Joao", b="Maria", c=5, d=5.5)
+
+arg_kwargs(1,2,3,4, a=5, b=6, c=7, d=8)
