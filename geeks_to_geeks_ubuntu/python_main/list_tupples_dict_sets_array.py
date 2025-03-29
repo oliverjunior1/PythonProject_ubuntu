@@ -1,30 +1,29 @@
-import numpy as np
+import pandas as pd
 
-my_list = [1,2,3,4,5,6,7,8]
-
+# list
+my_list = [1,2,3,4,5]
 print(my_list)
 print(type(my_list))
 
-my_tupple = (1,2,3,4,5,6,7,8)
+# tuples
+my_tuples = (1,2,3,4,5)
+print(my_tuples)
+print(type(my_tuples))
 
-print(my_tupple)
-print(type(my_tupple))
-
-my_set = {1,2,3,4,5,6,7,8}
-
-print(my_set)
-print(type(my_set))
-
-my_dict = {'a':1, 'b':2, 'c':3 }
-
+# dict
+my_dict = {'a':1, 'b':2, 'c':3}
 print(my_dict)
 print(type(my_dict))
 
-my_array = np.array([1,2,3,4,5,6])
+# sets
+my_set = {1,2,3,4,5}
+print(my_set)
+print(type(my_set))
 
+# array
+my_array = pd.array([1,2,3,4,5])
 print(my_array)
 print(type(my_array))
-
 
 
 
