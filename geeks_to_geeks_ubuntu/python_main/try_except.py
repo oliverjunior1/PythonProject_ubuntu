@@ -1,5 +1,5 @@
 try:
-    x = int(10)
-    print(z)
+    x = 10/0
+    print(x)
 except:
-    print("Declare the same variable!")
+    print("You can't divide a number to zero.")
