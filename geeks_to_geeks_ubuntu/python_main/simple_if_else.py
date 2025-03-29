@@ -1,3 +1,3 @@
-lock = False
+age = 18
 
-print("The home is locked, you can't enter. Is a thief? I'm Chucky Norris, go away!") if lock==True else print("You can enter in your home. Welcome!")
+print("You can't drive") if age <18 else print("You can drive. Go away!!!")
