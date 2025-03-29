@@ -1,4 +1,4 @@
-day = int(input("Put the number to see the week day: "))
+day = int(input("Enter the number to see the day:"))
 
 match day:
     case 1:
@@ -16,4 +16,4 @@ match day:
     case 7:
         print('saturday')
     case _:
-        print('invalid day')
+        print('invalid')
