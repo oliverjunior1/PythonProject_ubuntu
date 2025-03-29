@@ -1,14 +1,8 @@
 import random
 
-def lotofacil():
-    x = sorted(random.sample(range(1,26),15))
-    print(x)
-
-def mega():
+def megasena():
     x = sorted(random.sample(range(1,61),6))
-    print(x)
+    return x
 
-mega()
-mega()
-lotofacil()
-lotofacil()
+megasena()
+megasena()
