@@ -3,13 +3,15 @@ import sys
 
 pygame.init()
 
-screen = pygame.display.set_mode((700,700))
+screen = pygame.display.set_mode((500,500))
 
-image = pygame.image.load("SONIC.jpeg")
-screen.blit(image, (250,250))
+image = pygame.image.load('SONIC.jpeg')
+
+
 while True:
+    screen.blit(image, (130,130))
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
-            sys.exit()
             pygame.quit()
+            sys.exit()
     pygame.display.flip()
