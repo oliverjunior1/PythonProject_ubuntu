@@ -1,7 +1,5 @@
 try:
-    x = 10/0
-    print(x)
+    x = 25
+    print(z)
 except:
-    print("You can't divide a number to zero.")
-
-#simple try except
+    print("You can't declare the another variable!!")
