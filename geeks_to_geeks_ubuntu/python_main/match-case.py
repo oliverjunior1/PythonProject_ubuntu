@@ -1,19 +1,19 @@
-day = int(input('Type the number to see the week day typed:'))
+day = 1
 
 match day:
     case 1:
-        print('sunday')
+        print('Sunday')
     case 2:
-        print('monday')
+        print('Monday')
     case 3:
-        print('tuesday')
+        print('Tuesday')
     case 4:
-        print('wednesday')
+        print('Wednesday')
     case 5:
-        print('thursday')
+        print('Thursday')
     case 6:
-        print('friday')
+        print('Friday')
     case 7:
-        print('saturday')
+        print('Saturday')
     case _:
-        print('invalid')
+        print('Wrong date')
