@@ -1,5 +1,5 @@
 try:
-    x = 25
-    print(z)
+    x=10/0
+    print(x)
 except:
-    print("You can't declare the another variable!!")
+    print("You can't divide a number to zero. Let's study math!")
