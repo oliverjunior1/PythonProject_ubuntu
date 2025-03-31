@@ -1,4 +1,4 @@
-day = int(input("Enter the number to see the day:"))
+day = int(input('Type the number to see the week day typed:'))
 
 match day:
     case 1:
