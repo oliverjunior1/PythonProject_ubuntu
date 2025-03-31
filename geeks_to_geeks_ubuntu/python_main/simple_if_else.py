@@ -1,3 +1,3 @@
-age = 18
+key = True
 
-print("You can't drive") if age <18 else print("You can drive. Go away!!!")
+print('You can pass') if key==True else print("You can't pass")
