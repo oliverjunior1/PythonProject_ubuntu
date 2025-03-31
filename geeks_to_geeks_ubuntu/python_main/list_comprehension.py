@@ -1,11 +1,11 @@
-# list = [100,200,300,400,500,600]
+# x = [1,2,3,4,5,6,7]
 #
-# list_divided = [x//10 for x in list]
+# y =[a**2//10 for a in x]
 #
-# print(list_divided)
+# print(y)
 
-fruits = ['apple', 'orange', 'melon', 'watermelon', 'pineapple', 'lemon']
+fruits = ['banana', 'melon', 'watermelon', 'lemon', 'grape']
 
-list_a = [x for x in fruits if 'a' in x]
+fruits_a = [x for x in fruits if 'a' in x]
 
-print(list_a)
+print(fruits_a)
