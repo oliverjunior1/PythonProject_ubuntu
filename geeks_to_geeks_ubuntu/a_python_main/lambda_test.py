@@ -1,4 +1,6 @@
+#Problem area of the rectangle
 # lambda 3x
+
 side_one = int(input('Enter the side one:'))
 side_two = int(input('Enter the side two:'))
 
