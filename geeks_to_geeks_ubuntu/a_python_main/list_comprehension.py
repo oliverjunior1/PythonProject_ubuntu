@@ -1,10 +1,11 @@
-# x = [1,2,3,4,5,6,7]
+# six numbers mult for 3
+# a = [1,2,3,4,5,6]
 #
-# y =[a**2//10 for a in x]
+# b = [x*3 for x in a]
 #
-# print(y)
+# print(b)
 
-fruits = ['banana', 'melon', 'watermelon', 'lemon', 'grape']
+fruits = ['apple', 'lemon', 'pineapple', 'melon']
 
 fruits_a = [x for x in fruits if 'a' in x]
 
