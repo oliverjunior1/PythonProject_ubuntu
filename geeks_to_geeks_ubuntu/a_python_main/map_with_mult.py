@@ -1,5 +1,6 @@
-x = [10,20,30,40,50]
+# map with five numbers and pow to two
+x = [1,2,3,4,5]
 
-y = list(map(lambda a:a**2/10, x))
+y = list(map(lambda a: a**2, x))
 
 print(y)
