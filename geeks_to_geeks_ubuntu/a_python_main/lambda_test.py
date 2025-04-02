@@ -1,9 +1,6 @@
 #Problem area of the rectangle
 # lambda 3x
 
-side_one = int(input('Enter the side one:'))
-side_two = int(input('Enter the side two:'))
+x = lambda a, b, c, d: (a*b**c)//d
 
-rect_area = lambda a, b: a * b
-
-print(rect_area(side_one, side_two))
+print(x(5,5,4,100))
