@@ -1,9 +1,8 @@
-# lotofacil
+# mega
 import random
 
-
-def lotofacil():
-    x = sorted(random.sample(range(1,26),15))
+def mega_sena():
+    x = sorted(random.sample(range(1,61),6))
     return print(x)
 
-lotofacil()
+print(mega_sena())
