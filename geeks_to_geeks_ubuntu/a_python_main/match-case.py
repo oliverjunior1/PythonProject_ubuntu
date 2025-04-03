@@ -1,31 +1,22 @@
-# about the months
+# about the days with input
 
-month = int(input('Put the number to see the month:'))
+day = int(input('Put the number to see the day: '))
 
-match month:
+match day:
     case 1:
-        print("january")
+        print('sunday')
     case 2:
-        print("february")
+        print('monday')
     case 3:
-        print("march")
+        print('tuesday')
     case 4:
-        print("april")
+        print('wednesday')
     case 5:
-        print("may")
+        print('thursday')
     case 6:
-        print("june")
+        print('friday')
     case 7:
-        print("july")
-    case 8:
-        print("august")
-    case 9:
-        print("september")
-    case 10:
-        print("october")
-    case 11:
-        print("november")
-    case 12:
-        print("december")
+        print('saturday')
     case _:
-        print("invalid")
+        print('invalid day')
+
