@@ -1,6 +1,6 @@
-# variavel
+# divisible to zero
 try:
-    x = 10
-    print(y)
+    x = 10/0
+    print(x)
 except:
-    print("You can't use the non declared variable!")
+    print("You can't divide a number to zero.")
