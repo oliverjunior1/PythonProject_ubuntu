@@ -1,5 +1,5 @@
-# drive a car, with input
+# key, without input
 
-age = int(input("It's the company of roads, please, put your age: "))
+age = 18
 
-print("You can't drive. Try after will make eighteen years old.") if age < 18 else print("You can drive. Go away!")
+print("You can't drive") if age < 18 else print("You can drive.")
