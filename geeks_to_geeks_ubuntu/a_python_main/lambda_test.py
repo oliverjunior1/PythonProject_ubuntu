@@ -1,10 +1,8 @@
-#Problem area of the rectangle
+#Problem area of the rectangle:no
 # lambda 3x
 
-side1 = float(input("Put the side one:"))
-side2 = float(input("Put the side two:"))
+x = lambda a, b, c: a**b//c
 
-
-rect = lambda x, y: x*y
-
-print(f'The are of the rectangle is: {rect(side1, side2)} m2!')
+print(x(5,5,3))
+print(x(1,2,3))
+print(x(10,5,10))
