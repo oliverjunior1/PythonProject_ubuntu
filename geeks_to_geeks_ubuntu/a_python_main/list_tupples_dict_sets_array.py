@@ -1,25 +1,18 @@
-# four numbers
 import pandas as pd
+# three numbers
+a = [1,2,3]
+print(type(a))
 
-my_list = [1,2,3,4]
-print(type(my_list))
+b= (1,2,3)
+print(type(b))
 
+c = {'a':1, 'b':2, 'c':3}
+print(type(c))
 
-my_tuple = (1,2,3,4)
-print(type(my_tuple))
+d = {1,2,3}
+print(type(d))
 
-
-my_dict = {'a':1,'b':2, 'c':3, 'd':4}
-print(type(my_dict))
-
-
-my_set = {1,2,3,4}
-print(type(my_set))
-
-
-my_array = pd.array([1,2,3,4])
-print(type(my_array))
-
-
+e = pd.array([1,2,3])
+print(type(e))
 
     
