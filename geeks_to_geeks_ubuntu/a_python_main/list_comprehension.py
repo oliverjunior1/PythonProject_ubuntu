@@ -1,11 +1,12 @@
-# four numbers  for 3
-# a = [1,2,3,4]
-#
-# b = [x**3 for x in a]
-#
-# print(b)
+# five numbers  for 2
 
-fruits = ['banana', 'lemon', 'grape', 'melon']
+# x = [1,2,3,4,5]
+#
+# y = [a**2 for a in x]
+#
+# print(y)
+
+fruits = ['apple', 'melon', 'lemon', 'pineapple', 'grape']
 
 fruits_a = [x for x in fruits if 'a' in x]
 
