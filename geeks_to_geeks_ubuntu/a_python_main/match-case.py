@@ -1,32 +1,20 @@
-# about the months with input
-from pygame.surfarray import pixels_red
+# about the weeks with input
 
-month = int(input("Put the number to see the month: "))
-
-match month:
+day = int(input("Put the number to see the day: "))
+match day:
     case 1:
-        print("January")
+        print('sunday')
     case 2:
-        print("February")
+        print('monday')
     case 3:
-        print("March")
+        print('tuesday')
     case 4:
-        print("April")
+        print('wednesday')
     case 5:
-        print("May")
+        print('thursday')
     case 6:
-        print("June")
+        print('friday')
     case 7:
-        print("July")
-    case 8:
-        print("August")
-    case 9:
-        print("September")
-    case 10:
-        print("October")
-    case 11:
-        print("November")
-    case 12:
-        print("December")
+        print('saturday')
     case _:
-        print("None")
+        print('invalid')
