@@ -1,10 +1,11 @@
+# read the text and write the text
 
 x = open('message.txt', 'r')
-y = x.read()
+y =x.read()
 print(y)
 
 with open('message2.txt', 'w') as file:
-    file.write("Jesus is the salt of the earth and the light of the World!")
+    file.write('Jesus give his own life for us sinners...')
 
 a = open('message2.txt', 'r')
 b = a.read()
