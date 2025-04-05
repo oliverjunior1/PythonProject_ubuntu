@@ -1,8 +1,8 @@
-#Problem area of the rectangle:no
-# lambda 3x
+#Problem area of the rectangle:yes
+# lambda 2x
 
-x = lambda a, b, c: a**b//c
+side_1 = int(input('Put the first side: '))
+side_2 = int(input('Put the second side: '))
 
-print(x(5,5,3))
-print(x(1,2,3))
-print(x(10,5,10))
+x = lambda a, b : a * b
+print(f"The rect area is {x(side_1, side_2)} m2.")
