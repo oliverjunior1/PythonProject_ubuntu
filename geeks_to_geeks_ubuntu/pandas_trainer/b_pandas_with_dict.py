@@ -1,7 +1,8 @@
+# with four items
 import pandas as pd
 
-x = {'name':['Joao', 'Maria', 'Jose'], 'age':[12,44,50]}
+x = {'name':['Alyne', 'Joao', 'Mariane'],'age':['39','12','4']}
 
-y = pd.DataFrame(x)
+y =pd.DataFrame(x)
 
 print(y)
