@@ -1,7 +1,7 @@
 import pandas as pd
 
-a = [1,7,9,12,8,15]
+x = [1,7,9,12,8,15,27]
 
-x = pd.Series(a)
+y = pd.Series(x)
 
-print(x)
+print(y)
