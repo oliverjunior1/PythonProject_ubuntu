@@ -1,5 +1,8 @@
+# four items
 import pandas as pd
 
-x = ['apple', 'lemon', 'watermelon']
+x = ['apple', 'watermelon', 'grape', 'lemon']
+
 y = pd.DataFrame(x)
+
 print(y)
