@@ -1,3 +1,5 @@
+# threea screens
+
 import pygame
 import sys
 
@@ -6,11 +8,11 @@ pygame.init()
 screen = pygame.display.set_mode((500,500))
 
 # draw
-draw = pygame.draw.rect(screen, 'red', (50,50,40,40))
+draw = pygame.draw.rect(screen, 'red', (50,50,30,30))
 
 # text
 font = pygame.font.SysFont('Times New Roman', 25)
-text = font.render('Jesus is the light of the World!', True, 'pink')
+text = font.render("Jesus is the light of the World", True, "pink")
 text_rect = text.get_rect()
 text_rect.center=(250,250)
 
@@ -24,5 +26,7 @@ while True:
             if event.key==pygame.K_0:
                 screen.fill('lightblue')
             if event.key==pygame.K_1:
-                screen.fill('white')
+                screen.fill('green')
+            if event.key==pygame.K_2:
+                screen.fill('gray')
     pygame.display.flip()
