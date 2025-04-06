@@ -1,3 +1,4 @@
+# image (125,125)
 import pygame
 import sys
 
