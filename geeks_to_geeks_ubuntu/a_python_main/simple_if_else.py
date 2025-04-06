@@ -1,5 +1,6 @@
 # key, without input
 
-age = 18
 
-print("You can't drive") if age < 18 else print("You can drive.")
+key = True
+
+print("You can't enter without the key.") if key==False else print("You can pass. Welcome to your home.")
