@@ -1,7 +1,7 @@
-# non declared variable
+# not divisible to zero
 
 try:
-    x =10
-    print(y)
+    x = 10/0
+    print(x)
 except:
-    print("non declared variable!")
+    print("not divisible to zero")
