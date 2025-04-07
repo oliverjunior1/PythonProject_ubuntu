@@ -10,3 +10,5 @@ layout = [
     [sg.Sudmit(), sg.Cancel()]
 ]
 
+window = sg.Window('Simple data entry window', layout)
+event, values = window.read()
