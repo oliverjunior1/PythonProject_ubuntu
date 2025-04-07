@@ -1,7 +1,2 @@
-import PySimpleGui as sg
+import PySimpleGUI as sg
 
-sg.themme("SandyBeach")
-
-layout = [
-
-]
