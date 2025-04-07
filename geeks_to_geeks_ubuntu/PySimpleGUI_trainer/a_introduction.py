@@ -12,3 +12,4 @@ layout = [
 
 window = sg.Window('Simple data entry window', layout)
 event, values = window.read()
+window.close()
