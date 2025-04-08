@@ -1,7 +1,5 @@
-# five numbers
-def kwargs_and_args(*args, **kwargs):
-    print(args)
-    print(kwargs)
+# four numbers
+def args_and_kwargs(*args, **kwargs):
+    print(f"args: {args}, kwargs: {kwargs}")
 
-kwargs_and_args(1,2,3,4,5)
-kwargs_and_args(a=1, b=2, c=3, d=4, e=5)
+args_and_kwargs(1,2,3,4, a=10, b=20, c=30, d=40)
