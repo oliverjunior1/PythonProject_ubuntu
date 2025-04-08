@@ -7,6 +7,10 @@ family_ln = [x + " Oliveira" for x in family]
 print(family_ln)
 
 # Withdraw from some list one list with only 'b'
+fruits = ['apple', 'banana', 'bayberry', 'orange']
 
+fruits_b = [x for x in fruits if 'b' in x]
+
+print(fruits_b)
 # multiply all the elements from a list for 5
 
