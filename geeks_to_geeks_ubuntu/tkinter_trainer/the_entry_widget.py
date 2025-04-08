@@ -1,3 +1,5 @@
 import tkinter as tk
 
-root = tk.Tk()  
+root = tk.Tk()
+
+label = tk.Label(root, text="Jesus is the light of the world!")
