@@ -1,7 +1,5 @@
-import random
+from tkinter import *
+from tkinter.ttk import *
 
-def lotofacil():
-    x = sorted(random.sample(range(1,26),15))
-    print(x)
-
-lotofacil()
+root =Tk()
+p1 = PhotoImage(file='')
