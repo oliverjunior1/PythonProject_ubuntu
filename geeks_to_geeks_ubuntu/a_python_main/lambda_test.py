@@ -1,7 +1,10 @@
-# Problem of rectangle area: no
+# Problem of rectangle area: yes
 # with input: no
-# lambda pow 3
+# lambda pow 2
 
-x = lambda a, b, c: a **b//c
+x =10
+y =10
 
-print(x(2,6,6))
+area_rect = lambda a, b: a*b
+
+print(area_rect(x,y))
