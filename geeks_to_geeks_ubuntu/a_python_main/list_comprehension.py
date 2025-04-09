@@ -7,6 +7,7 @@ family_oliver = [x + " Oliveira" for x in family]
 print(family_oliver)
 # Withdraw from some list one list with only 'b'
 
+
 # multiply all the elements from a list for 5
 
 
