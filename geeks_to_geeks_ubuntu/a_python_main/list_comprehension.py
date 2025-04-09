@@ -14,6 +14,13 @@ print(fruits_c)
 
 # multiply all the elements from a list for 5
 
+x = [1,2,3,4,5]
+
+x_5 = [b**5 for b in x]
+
+print(x_5)
+
+
 
 
 
