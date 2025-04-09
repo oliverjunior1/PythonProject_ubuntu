@@ -12,3 +12,5 @@ big_bang1 = Big_bang("Sheldon", 12000)
 big_bang2 = Big_bang("Leonard", 11755)
 big_bang3 = Big_bang("Howard", 10005)
 big_bang4 = Big_bang("Hajesh", 8008)
+
+print(big_bang1)
