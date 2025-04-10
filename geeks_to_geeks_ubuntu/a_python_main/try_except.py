@@ -1,7 +1,7 @@
-# not divisible to zero
+# variable not initiated
 
 try:
-    x = 10/0
-    print(x)
+    x = 5
+    print(y)
 except:
-    print("not divisible to zero")
+    print('variable not initiated')
