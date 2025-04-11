@@ -1,6 +1,6 @@
-# with red and five numbers
+# with green and four numbers
 import matplotlib.pyplot as plt
 
-plt.plot((1,7,9,15,12),(10,20,30,40,50), '*r')
+plt.plot((1,4,5,7),(10,20,30,40),"*g")
 
 plt.show()
