@@ -1,7 +1,7 @@
+# with five numbers
 import pandas as pd
 
-x = [1,7,9,12,8,15,27]
-
+x = [1,2,3,4,5]
 y = pd.Series(x)
 
 print(y)
