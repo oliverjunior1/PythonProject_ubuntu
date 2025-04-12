@@ -1,8 +1,6 @@
-# four items
+# five items
 import pandas as pd
 
-x = ['apple', 'watermelon', 'grape', 'lemon']
+x = pd.DataFrame([1,2,3,4,5])
 
-y = pd.DataFrame(x)
-
-print(y)
+print(x)
