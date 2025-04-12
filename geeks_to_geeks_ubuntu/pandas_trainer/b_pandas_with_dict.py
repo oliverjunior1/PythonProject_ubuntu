@@ -1,8 +1,7 @@
 # with and family ages, and four items
 import pandas as pd
 
-x = {'name':['Alyne', 'Joao', 'Mariane'],'age':['39','12','4']}
+x = {'name':['Joaquim', 'Alyne'], 'age':[42,39]}
 
-y =pd.DataFrame(x)
-
+y = pd.DataFrame(x)
 print(y)
