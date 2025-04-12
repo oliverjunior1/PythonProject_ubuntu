@@ -1,8 +1,9 @@
+# with four numbers
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.array([1,5,7])
-y = np.array([10,20,30])
+x = np.array([1,2,3,4])
+y = np.array([1,7,9,15])
 
-plt.plot(x, y)
+plt.plot(x,y)
 plt.show()
