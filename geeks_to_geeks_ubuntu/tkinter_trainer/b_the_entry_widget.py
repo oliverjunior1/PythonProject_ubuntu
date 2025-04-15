@@ -1,10 +1,14 @@
 import tkinter as tk
+import tkinter as ttk
 
 root = tk.Tk()
 
 root.geometry('500x500')
-label = tk.Label(root, text="Jesus is the light of the world!")
+label = ttk.Label(root, text='Jesus is the light of the World!')
 label.pack()
-entry = tk.Entry(root)
+entry = ttk.Entry(root)
 entry.pack()
+button = ttk.Button(root, text='Send')
+button.pack()
+
 root.mainloop()
