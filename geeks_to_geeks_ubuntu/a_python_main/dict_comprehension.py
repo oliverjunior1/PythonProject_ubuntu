@@ -1,7 +1,8 @@
-# dict comprehension with five items
-a = ['a', 'b', 'd', 'e', 'f']
-b = [1,2,3,4,5]
+# dict comprehension with four items
 
-my_dict = {x:y for (x,y) in zip(a, b)}
+a = ['a','b', 'c', 'd']
+b = [1,2,3,4]
 
-print(my_dict)
+x = {c:d for c,d in zip(a, b)}
+
+print(x)
