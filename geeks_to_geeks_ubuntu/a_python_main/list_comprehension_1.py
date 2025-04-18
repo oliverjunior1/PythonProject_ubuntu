@@ -8,7 +8,7 @@ print(name_lname)
 
 
 
-# multiply all the elements from a list for 5
+
 
 
 
