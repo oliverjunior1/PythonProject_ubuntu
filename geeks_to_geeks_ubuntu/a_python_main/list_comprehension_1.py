@@ -5,7 +5,7 @@ list_names = ["Alyne", "Joaquim", "Mariane", "Joao"]
 name_lname = [x+" Oliveira" for x in list_names]
 
 print(name_lname)
-# Withdraw from some list one list with only 'c'
+
 
 
 # multiply all the elements from a list for 5
