@@ -2,9 +2,10 @@
 # with input: no
 # lambda pow 2
 
-x =10
-y =10
+side_1 = int(input('Enter the side 1: '))
+side_2 = int(input('Enter the side 2: '))
 
-area_rect = lambda a, b: a*b
+area_rect = lambda x, y: x*y
 
-print(area_rect(x,y))
+print(f"The rectangle area is: {area_rect(side_1, side_2)} m2!")
+
