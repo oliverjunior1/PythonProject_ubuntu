@@ -1,19 +1,15 @@
-# family
+# Two and a half man
 
-class Family:
-    def __init__(self, name, age):
+class Two_and_a_half:
+    def __init__(self, name, loves):
         self.name = name
-        self.age = age
+        self.loves = loves
 
     def __str__(self):
-        return f'The name is {self.name} and the age is {self.age} years old!'
+        return f"The character {self.name} has {self.loves} in him bed!"
 
-family = Family("Joao Pedro", 12)
-family1 = Family('Mariane Vitória',4 )
-family2 = Family('Alyne Oliveira',39 )
-family3 = Family('Joaquim Rodrigues',42 )
+two_and = Two_and_a_half("Charlie", 5)
+two_and1 = Two_and_a_half("Alan", -2)
 
-print(family)
-print(family1)
-print(family2)
-print(family3)
+print(two_and)
+print(two_and1)
