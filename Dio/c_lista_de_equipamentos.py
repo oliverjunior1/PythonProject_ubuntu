@@ -9,9 +9,12 @@ while i < 3:
     lista_de_equipamentos.append(lista)
     i += 1
 # TODO: Adicione o item à lista "itens":
+# print("Lista de Equipamentos:")
 print("Lista de Equipamentos:")
+
+# Exibe a lista de itens
+
 for itens in lista_de_equipamentos:
     print(f"- {itens}")
 
-# Exibe a lista de itens
-# print("Lista de Equipamentos:")
+
