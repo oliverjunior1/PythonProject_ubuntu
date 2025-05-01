@@ -1,11 +1,10 @@
-# Problem of rectangle area: yes
+# Problem of rectangle area: no
 # with input: no
-# lambda pow 2
+# lambda pow 3
 
-side_1 = int(input('Enter the side 1: '))
-side_2 = int(input('Enter the side 2: '))
+x = lambda a, b: a **3
 
-area_rect = lambda x, y: x*y
+print(x(3,4))
 
-print(f"The rectangle area is: {area_rect(side_1, side_2)} m2!")
+
 
