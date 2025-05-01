@@ -1,8 +1,9 @@
 # Four numbers  for 3
 # problem 1: Make a list with some family members, that change to a list with name and last name.
-list_names = ["Alyne", "Joaquim", "Mariane", "Joao"]
 
-name_lname = [x+" Oliveira" for x in list_names]
+name = ["Joaquim", "Alyne", "Joao", "Mariane"]
+
+name_lname = [x + " Oliveira" for x in name]
 
 print(name_lname)
 
