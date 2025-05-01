@@ -1,8 +1,8 @@
-# Withdraw from some list one list with only 'd'
+# Withdraw from some list one list with only 'a'
 
-fruits = ['damson', 'banana', 'desert banana', 'berry']
 
-fruits_d = [x for x in fruits if 'd' in x]
+fruits = ["apple", "melon", "watermelon", "lemon"]
 
-print(fruits_d)
+fruits_a = [x for x in fruits if 'a' in x]
 
+print(fruits_a)
