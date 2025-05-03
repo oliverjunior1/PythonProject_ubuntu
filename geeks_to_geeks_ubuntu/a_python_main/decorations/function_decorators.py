@@ -1,13 +1,13 @@
-def func1(func):
+def func1(x):
     def func2():
-        print("Hello 1")
-        func()
-        print("Hello 2")
+        print("aaaaaa")
+        x()
+        print("bbbbbbb")
     return func2
 
 @func1
 
-def greetings():
-    print("Hello 3")
+def greeting():
+    print("Hello")
 
-greetings()
+greeting()
