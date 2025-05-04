@@ -1,13 +1,14 @@
-def func1(x):
-    def func2():
-        print("aaaaaa")
+# decorations without method
+def fun1(x):
+    def fun2():
+        print("aaaaaaaaaa")
         x()
-        print("bbbbbbb")
-    return func2
+        print('bbbbbbbbb')
+    return fun2
 
-@func1
+@fun1
 
-def greeting():
+def greetings():
     print("Hello")
 
-greeting()
+greetings()
