@@ -1,13 +1,12 @@
-def fun1(function):
+def fun1(x):
     def fun2(*args, **kwargs):
-        print("First")
-        function(*args, **kwargs)
-        print("Second")
-    return function
+        print("aaaaaaa")
+        x(*args, **kwargs)
+        print("bbbbbbb")
+    return fun2
 
 @fun1
-def ola_mundo(nome, outro_argumento):
-    print(f"Ola mundo {nome}")
+def greetings(name, age):
+    print(f"Hello {name}, your age is {age} years old.")
 
-resultado = ola_mundo("Joao", 1000)
-print(resultado)
+greetings("Joaquim", 40)
