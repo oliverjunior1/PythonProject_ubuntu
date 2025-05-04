@@ -1,9 +1,9 @@
 def fun1(function):
     def fun2(*args, **kwargs):
         print("First")
-        function(*args, *kwargs)
+        function(*args, **kwargs)
         print("Second")
-    return function
+    return fun2
 
 @fun1
 def ola_mundo(nome, outro_argumento):
