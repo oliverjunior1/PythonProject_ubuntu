@@ -1,22 +1,14 @@
 # decorations without method
-def oliveira(text):
-    def fun():
-        print("Oliveira Ltda")
-        print("###############")
-        text()
-        print("################")
-        print("Contato: 99 9999 9999")
-        print("Thank you for all!!!")
+def fun1(x):
+    def fun2():
+        print("#####winner#######")
+        x()
+        print('###################')
         print()
-    return fun
+    return fun2
 
-@oliveira
-def x():
-    print("How are you?")
+@fun1
+def greetings():
+    print("Joaquim Rodrigues")
 
-@oliveira
-def y():
-    print("Jesus loves you!")
-
-x()
-y()
+greetings()
