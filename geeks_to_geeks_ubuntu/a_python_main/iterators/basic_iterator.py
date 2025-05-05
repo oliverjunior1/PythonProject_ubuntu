@@ -1,5 +1,4 @@
 name = "Joaquim"
-
 it = iter(name)
 
 print(next(it))
