@@ -1,6 +1,7 @@
-x = [1,2,3,4,5,6,7]
 name = "Joaquim"
-it = iter(x)
+it = iter(name)
+
+person = {"name":"Joaquim", "age":40}
 
 print(next(it))
 print(next(it))
@@ -10,11 +11,7 @@ print(next(it))
 print(next(it))
 print(next(it))
 
-it_2 = iter(name)
-print(next(it_2))
-print(next(it_2))
-print(next(it_2))
-print(next(it_2))
-print(next(it_2))
-print(next(it_2))
-print(next(it_2))
+it2 = iter(person)
+
+print(next(it2))
+print(next(it2))
