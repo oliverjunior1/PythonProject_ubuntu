@@ -1,8 +1,7 @@
-# dict comprehension with my own dates and four items
+# dict comprehension with my own dates and five items
+a = ['a', 'b', 'c', 'd', 'e']
+b = [1,2,3,4,5]
 
-x = ['name', 'age', 'city', 'state']
-y = ['Joaquim', 40, 'Anapolis', 'Goias']
-
-my_dict= {a:b for (a,b) in zip(x,y)}
+my_dict = {x:y for (x,y) in zip(a,b)}
 
 print(my_dict)
