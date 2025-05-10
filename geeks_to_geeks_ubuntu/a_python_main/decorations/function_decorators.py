@@ -11,4 +11,3 @@ def greeting():
     print("Hello Joaquim")
 
 greeting()
-        
