@@ -1,5 +1,7 @@
 # map with four numbers and pow to three
 
-x = [1,2,3,4]
+x = ['10', '20', '40', '60']
 
-y = list(map(lambda a:a**2))
+y = map(int, x)
+
+print(list(y))
