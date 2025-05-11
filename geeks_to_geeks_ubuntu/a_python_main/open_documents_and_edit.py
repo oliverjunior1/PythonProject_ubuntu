@@ -1,6 +1,6 @@
 x = open('message2.txt', 'w')
-x.write("Jesus is love, and all the love from the earth, isn't like him love!")
+x.write("Jesus is the love of my life!")
 
-x = open('message2.txt', 'r')
+x= open("message2.txt", 'r')
 y = x.read()
 print(y)
